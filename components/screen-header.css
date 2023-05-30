@@ -1,0 +1,13 @@
+.screen-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.screen-header i {
+    width: 20%;
+}
+
+.screen-header span {
+    width: 20%;
+}
