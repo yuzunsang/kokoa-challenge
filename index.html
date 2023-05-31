@@ -4,45 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Challenge - playlist</title>
+    <title>Challenge - Playlist</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 </head>
+
 <body>
-    <div class="screen-header">
-        <i class="fas fa-times fa-lg"></i>
-        <span>Playlist</span>
-    </div>
+    <header>
+        <div class="screen-header">
+            <i class="fas fa-times fa-2x"></i>
+            <span>Playlist</span>
+            <i class="fas fa-times fa-2x"></i>
+        </div>
+    
+        <div class="song__column">
+            <div class="song__jacket">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/BigBang_-_M_%28White_Version%29.jpg/220px-BigBang_-_M_%28White_Version%29.jpg" />
+            </div>
 
-    <div class="player">
-        <img class="thumbnail" src="#" />
-        <span class="player__title">Random Love</span>
-        <span class="player__artist"></span>
-    </div>
+            <div class="song__info">
+                <span class="song__title">Random Love</span>
+                <span class="song__artist">by Divay Kapoor</span>
+            </div>
+        </div>
 
-    <div class="control-button">
-        <button>
-            <i class="fas fa-play fa-lg"></i>
-            <span>Play</span>
-        </button>
-        <button>
-            <i class="far fa-heart fa-lg"></i>
-        </button>
-        <button>
-            <i class="fas fa-plus fa-lg"></i>
-        </button>
-    </div>
+        <div class="control-btn">
+            <button>
+                <i class="fas fa-play fa-2x"></i>
+                <span>Play</span>
+            </button>
+            <button>
+                <i class="far fa-heart fa-2x"></i>
+            </button>
+            <button>
+                <i class="fas fa-plus fa-2x"></i>
+            </button>
+        </div>
+    </header>
 
-    <div class="playlist">
-        <ol>
-            <li>Matargasti</li>
-            <li>Attitude</li>
-            <li>Try EveryThing</li>
-            <li>Sunflower</li>
-        </ol>
-    </div>
+    <main>
+        <div class="song__column">
+            <div class="song__jacket jacket-small">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/BigBang_-_M_%28White_Version%29.jpg/220px-BigBang_-_M_%28White_Version%29.jpg" />
+            </div>
 
+            <div class="song__info">
+                <span class="song__title">Random Love</span>
+                <span class="song__artist">by Divay Kapoor</span>
+            </div>
+        </div>
+    </main>
 
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>   <!-- ver.5.15.4 -->
+
 </body>
 </html>

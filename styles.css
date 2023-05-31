@@ -3,14 +3,17 @@
 
 /* Components */
 @import "components/screen-header.css";
+@import "components/now-playing.css";
+@import "components/control-btn.css";
 
 html,
 body {
-    height: 100%;
+    height: 1100vh;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
     color: #2f363e;
     border: 5px solid #00c6ad;
+    padding: 35px 30px;
 }

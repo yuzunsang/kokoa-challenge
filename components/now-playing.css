@@ -1,0 +1,31 @@
+.now-playing {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.now-playing__jacket img {
+    width: 135px;
+    height: 135px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.now-playing__info {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    padding: 20px;
+}
+
+.now-playing__title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 80%;
+}
+
+.now-playing__artist {
+    font-weight: 600;
+    font-size: 20px;
+}

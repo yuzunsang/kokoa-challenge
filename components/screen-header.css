@@ -1,13 +1,15 @@
 .screen-header {
+    margin: 35px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.screen-header i {
-    width: 20%;
+.screen-header i:last-child {
+    opacity: 0;
 }
 
 .screen-header span {
-    width: 20%;
+    font-size: 28px;
+    font-weight: 600;
 }
